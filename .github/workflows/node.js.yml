@@ -29,7 +29,10 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build 
+<<<<<<< HEAD
     - run: npm run export
+=======
+>>>>>>> 982d2066b0dd63d29065bdf3219ec41aa1bdb983
     - run: touch ./out/.nojekyll
     
     - name: Deploy 🚀
